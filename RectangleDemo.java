@@ -15,7 +15,6 @@ public class RectangleDemo {
 }
 
 class Rectangle {
-
     // attribute
     private double length;
     private double width;
@@ -38,6 +37,7 @@ class Rectangle {
         return width;
     }
 
+    // Method for Calculate Area
     public double getArea() {
         return length * width;
     }

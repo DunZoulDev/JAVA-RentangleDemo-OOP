@@ -5,9 +5,10 @@ public class RectangleDemo {
 
         System.out.println("Sending the value 10.0" + "to the setLength method.");
 
+        //object.method
         box.setLength(10.0);
         box.setWidth(20.478);
-
+        
         System.out.println("The Box Length is " + box.getLength());
         System.out.println("The Box Width is " + box.getWidth());
         System.out.println("Area is " + box.getArea());
